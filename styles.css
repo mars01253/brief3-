@@ -12,7 +12,7 @@
 }
 
 .desc{
-    background-color:rgba(44, 44, 44, 1) ;
+    background-color:rgb(243, 71, 4) ;
     margin: 0 auto;
     padding: 5% 5%;
     border-radius: 15px;
@@ -138,6 +138,12 @@ main{
     overscroll-behavior-inline: contain;
     margin-bottom: 5%;
 }
+.Mainscroll::-webkit-scrollbar {
+    display: none;
+  }
+  .m1::-webkit-scrollbar {
+    display: none;
+  }
 .second-container{
     background-color: rgba(221, 98, 54, 1);
     color: rgba(68, 70, 72, 1);
